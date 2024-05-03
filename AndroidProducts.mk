@@ -13,9 +13,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/bliss_miatoll.mk
+    $(LOCAL_DIR)/evolution_miatoll.mk
 
 COMMON_LUNCH_CHOICES := \
-    bliss_miatoll-user \
-    bliss_miatoll-userdebug \
-    bliss_miatoll-eng
+    evolution_miatoll-user \
+    evolution_miatoll-userdebug \
+    evolution_miatoll-eng
