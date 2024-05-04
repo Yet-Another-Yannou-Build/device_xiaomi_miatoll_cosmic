@@ -49,3 +49,4 @@ EVEREST_UDFPS_ANIMATIONS := true
 TARGET_BUILD_VIMUSIC := true 
 TARGET_BUILD_INNERTUNE := true
 TARGET_USES_LAWNCHAIR := false
+$(call inherit-product, vendor/everest/config/common_full_phone.mk)
