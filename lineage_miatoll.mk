@@ -22,7 +22,7 @@ $(call inherit-product, device/xiaomi/miatoll/device.mk)
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
-PRODUCT_NAME := evolution_miatoll
+PRODUCT_NAME := lineage_miatoll
 PRODUCT_DEVICE := miatoll
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := SM6250
@@ -41,3 +41,4 @@ TARGET_SUPPORTS_CALL_RECORDING := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
 TARGET_SUPPORTS_QUICK_TAP := true
+WITH_GAPPS := true
